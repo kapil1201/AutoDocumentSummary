@@ -4,7 +4,7 @@ from os.path import join, expanduser, dirname
 Global config options
 """
 MODEL_DIR = join(dirname(dirname(__file__)),'models-cpu','squad')
-DB_CONN="Driver={ODBC Driver 13 for SQL Server};Server=192.168.100.15;Database=PharmaAce_Dev;UID=sa;PWD=admin@123;Trusted_Connection=no;"
+DB_CONN="Driver={ODBC Driver 13 for SQL Server};Server=<Server Name>;Database=<DB Name>;UID=<UserID>;PWD=<Password>;Trusted_Connection=no;"
 VEC_DIR = join("D:\Document QnA\python API testing", "data", "glove")
 SQUAD_SOURCE_DIR = join(expanduser("~"), "data", "squad")
 SQUAD_TRAIN = join(SQUAD_SOURCE_DIR, "train-v1.1.json")
